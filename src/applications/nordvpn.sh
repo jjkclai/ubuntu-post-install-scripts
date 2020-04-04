@@ -11,3 +11,16 @@ install_nordvpn_deb () {
 }
 
 install_nordvpn_deb
+
+configure_nordvpn () {
+    nordvpn login
+
+    nordvpn set cybersec on
+    nordvpn set killswitch on
+    nordvpn set autoconnect on
+    nordvpn set notify on
+
+    nordvpn connect
+}
+
+configure_nordvpn
