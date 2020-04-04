@@ -9,3 +9,5 @@ install_nordvpn_deb () {
     sudo apt update
     sudo apt -y install nordvpn
 }
+
+install_nordvpn_deb
