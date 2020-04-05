@@ -26,3 +26,7 @@ sudo apt -y install ofono pavucontrol ubuntu-desktop ubuntu-restricted-extras ib
 for s in ./applications/*.sh; do
     bash $s
 done
+
+# import dotfiles
+mkdir ~/.config/i3/
+ln -s `readlink -f ./dotfiles/i3.config` ~/.config/i3/config
