@@ -32,3 +32,5 @@ install_xflux_archive () {
     desktop-file-install --dir=$HOME/.local/share/applications /opt/xflux/xflux.desktop
     update-desktop-database
 }
+
+install_xflux_archive
