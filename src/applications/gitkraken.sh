@@ -42,3 +42,5 @@ install_gitkraken_archive () {
     desktop-file-install --dir=$HOME/.local/share/applications /opt/gitkraken/gitkraken.desktop
     update-desktop-database
 }
+
+install_gitkraken_archive
