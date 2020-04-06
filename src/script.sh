@@ -30,3 +30,11 @@ done
 # import dotfiles
 mkdir ~/.config/i3/
 ln -s `readlink -f ./dotfiles/i3.config` ~/.config/i3/config
+
+mkdir ~/.config/polybar/
+ln -s `readlink -f ./dotfiles/polybar.config` ~/.config/polybar/config
+
+mkdir ~/.config/polybar/scripts/
+for s in ./polybar/*.sh; do
+    ln -s `readlink -f $s` ~/.config/polybar/scripts/`basename $s`
+done
