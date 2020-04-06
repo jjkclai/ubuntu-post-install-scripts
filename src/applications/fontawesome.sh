@@ -15,3 +15,5 @@ install_fontawesome_archive () {
 
     fc-cache
 }
+
+install_fontawesome_archive
