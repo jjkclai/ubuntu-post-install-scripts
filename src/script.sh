@@ -18,9 +18,10 @@ sudo apt -y upgrade
 
 # install packages from apt
 sudo apt -y install ofono pavucontrol ubuntu-desktop ubuntu-restricted-extras ibus-chewing tlp tlp-rdw \
-    linux-tools-$( uname -r ) lm-sensors hddtemp \
+    linux-headers-$(uname -r) linux-tools-$( uname -r ) xinput-calibrator lm-sensors hddtemp \
     gnome-tweaks gnome-tweak-tool gnome-shell-extensions chrome-gnome-shell \
-    build-essential pkg-config gcc python3-dev python3-pip default-jre default-jdk golang-go git csh tcsh tree nano xdotool grabc
+    build-essential pkg-config gcc python3-dev python3-pip default-jre default-jdk golang-go git csh tcsh tree nano xdotool grabc \
+    i3 feh numlockx
 
 # install programs in applications folder
 for s in ./applications/*.sh; do
