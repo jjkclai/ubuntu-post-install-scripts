@@ -28,6 +28,8 @@ for s in ./applications/*.sh; do
 done
 
 # import dotfiles
+ln -s `readlink -f ./dotfiles/home.hidden` ~/.hidden
+
 mkdir ~/.config/i3/
 ln -s `readlink -f ./dotfiles/i3.config` ~/.config/i3/config
 
