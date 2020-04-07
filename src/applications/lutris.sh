@@ -5,3 +5,5 @@ install_lutris_ppa () {
     sudo apt update
     sudo apt -y install lutris
 }
+
+install_lutris_ppa
