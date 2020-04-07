@@ -24,3 +24,5 @@ install_polybar_source () {
 
     sudo make install
 }
+
+install_polybar_source
