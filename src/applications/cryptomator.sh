@@ -33,3 +33,5 @@ install_cryptomator_appimage () {
     desktop-file-install --dir=$HOME/.local/share/applications /opt/cryptomator/cryptomator.desktop
     update-desktop-database
 }
+
+install_cryptomator_appimage
