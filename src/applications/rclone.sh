@@ -33,3 +33,5 @@ install_rclone_archive () {
     desktop-file-install --dir=$HOME/.local/share/applications /opt/rclone/rclone.desktop
     update-desktop-database
 }
+
+install_rclone_archive
