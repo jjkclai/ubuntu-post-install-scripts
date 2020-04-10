@@ -36,3 +36,5 @@ install_veracrypt_archive () {
     desktop-file-install --dir=$HOME/.local/share/applications /opt/veracrypt/veracrypt.desktop
     update-desktop-database
 }
+
+install_veracrypt_archive
