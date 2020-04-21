@@ -18,7 +18,7 @@ sudo apt -y upgrade
 
 # install packages from apt
 sudo apt -y install ofono pavucontrol ubuntu-desktop ubuntu-restricted-extras ibus-chewing tlp tlp-rdw \
-    linux-headers-$(uname -r) linux-tools-$( uname -r ) mokutil xinput-calibrator lm-sensors hddtemp \
+    linux-headers-$(uname -r) linux-tools-$( uname -r ) mokutil scsitools xinput-calibrator lm-sensors hddtemp \
     build-essential make pkg-config dkms gcc default-jre default-jdk golang-go perl git csh tcsh tree nano xdotool grabc \
     i3 feh numlockx
 
